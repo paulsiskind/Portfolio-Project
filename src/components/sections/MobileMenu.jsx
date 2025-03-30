@@ -20,28 +20,42 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
             <a 
                 href="#Home" 
                 onClick={() => setMenuOpen(false)}
-                className="text-gray-300 hover:text-white transition-colors"
+                className={`text-2xl font-semibold text-white trasform transition-transform duration-300
+                        ${menuOpen ? "opacity-100 translate-y-0" 
+                        : "opacity-0 translate-y-5"
+                    }
+                `}
+
                 >Home
             </a>
             <a 
                 href="#About"
-                className="text-gray-300 hover:text-white transition-colors"
-                onClick={() => setMenuOpen(false)
-                }
+                onClick={() => setMenuOpen(false)}
+                className={`text-2xl font-semibold text-white trasform transition-transform duration-300
+                        ${menuOpen ? "opacity-100 translate-y-0" 
+                        : "opacity-0 translate-y-5"
+                    }
+                `}
                 >About
             </a>
             <a 
                 href="#Projects"
-                className="text-gray-300 hover:text-white transition-colors"
-                onClick={() => setMenuOpen(false)
-                }
+                onClick={() => setMenuOpen(false)}
+                className={`text-2xl font-semibold text-white trasform transition-transform duration-300
+                        ${menuOpen ? "opacity-100 translate-y-0" 
+                        : "opacity-0 translate-y-5"
+                    }
+                `}
                 >Projects
             </a>
             <a 
                 href="#Contact" 
-                className="text-gray-300 hover:text-white transition-colors"
-                onClick={() => setMenuOpen(false)
-                }
+                onClick={() => setMenuOpen(false)}
+                className={`text-2xl font-semibold text-white trasform transition-transform duration-300
+                        ${menuOpen ? "opacity-100 translate-y-0" 
+                        : "opacity-0 translate-y-5"
+                    }
+                `}
                 >Contact</a>
          </div>
     );
