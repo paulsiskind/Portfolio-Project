@@ -5,56 +5,49 @@
         "type": "image",
         "src": "/savantLogo.png",
         "alt": "Contact Us",
-        "web": "www.savant.com"
+        "url": "https://www.savant.com"
       },
       {
         "name": "Control4",
         "type": "image",
         "src": "/control4Logo.png",
         "alt": "Contact Us",
-        "web": "www.control4.com"
+        "url": "https://www.control4.com"
       },
       {
         "name": "Crestron",
         "type": "image",
         "src": "/crestronLogo.png",
         "alt": "Contact Us",
-        "web": "www.crestron.com"
+        "url": "https://www.crestron.com"
       },
       {
         "name": "Josh.AI",
         "type": "image",
         "src": "/joshLogo.png",
         "alt": "Contact Us",
-        "web": "www.josh.ai"
-      },
-      {
-        "name": "RTI",
-        "type": "image",
-        "src": "/rtiLogo.png",
-        "alt": "Contact Us",
-        "web": "www.rticorp.com"
+        "url": "https://www.josh.ai"
       },
       {
         "name": "QSC",
         "type": "image",
         "src": "/qscLogo.png",
         "alt": "Contact Us",
-        "web": "www.qsc.com"
+        "url": "https://www.qsc.com"
       },
       {
         "name": "Lutron",
         "type": "image",
         "src": "/lutronLogo.png",
         "alt": "Contact Us",
-        "web": "www.lutron.com"
+        "url": "https://www.lutron.com"
       },
       {
         "name": "Vantage",
         "type": "image",
         "src": "/vantageLogo.png",
         "alt": "Contact Us",
-        "web": "https://www.legrand.us/vantage?srsltid=AfmBOorpKjk-j4lDHSsmZ2Ib03MbuFhahZhu2Z5WuuxcQ7IDXT6_pOsC"
+        "url": "https://www.legrand.us/vantage?srsltid=AfmBOorpKjk-j4lDHSsmZ2Ib03MbuFhahZhu2Z5WuuxcQ7IDXT6_pOsC"
       }
     ]
   }
