@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+
 
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
     return (
@@ -8,7 +8,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                         ${
                             menuOpen 
                                 ? "h-screen opacity-100 pointer-events-auto"   
-                                : "h-0 opacity-0 pointer-events-none"
+                                : "h-0 opacity-0 pointer-events-auto"
                         }
                         `}
         >

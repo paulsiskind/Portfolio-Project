@@ -9,6 +9,7 @@ import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
 import "./index.css"
+import { Pricing } from './components/sections/Pricing.jsx';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <About/>
       <Projects/>
       <Contact/>
+      <Pricing/>
     </div>
     </>
   );
