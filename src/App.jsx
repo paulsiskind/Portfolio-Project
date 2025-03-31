@@ -6,10 +6,13 @@ import { LoadingScreen } from './components/LoadingScreen';
 import { MobileMenu } from './components/sections/MobileMenu';
 import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
-import { Projects } from './components/sections/Projects';
+// import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
 import "./index.css"
-import { Pricing } from './components/sections/Pricing.jsx';
+import { Services } from './components/sections/Services.jsx';
+// import { Pricing } from './components/sections/Pricing.jsx';
+
+
 
 
 function App() {
@@ -25,9 +28,10 @@ function App() {
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Home/>
       <About/>
-      <Projects/>
+      {/* <Projects/> */}
       <Contact/>
-      <Pricing/>
+      <Services/>
+      {/* <Pricing/> */}
     </div>
     </>
   );
