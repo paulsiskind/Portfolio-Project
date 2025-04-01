@@ -11,7 +11,7 @@ build: {
     assetsDir: 'assets', // static assets (images, js, css, etc.)
    },
    esbuild:{
-    loader: {'jsx',
+    loader:'jsx',
     },
     resolve:{
       aliax:{'./runtimeConfig': './runtimeConfig.browser' 
@@ -24,5 +24,4 @@ build: {
         },
       },
     },
-  },
 });
