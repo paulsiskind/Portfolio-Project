@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig, optimizeDeps } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
@@ -10,4 +10,19 @@ build: {
     outDir: 'dist',      // gets deployed to github pages
     assetsDir: 'assets', // static assets (images, js, css, etc.)
    },
+   esbuild:{
+    loader: {'jsx',
+    },
+    resolve:{
+      aliax:{'./runtimeConfig': './runtimeConfig.browser' 
+      }, 
+    },
+    optimizeDeps:{
+      esbuidOptions:{
+        loader:{
+          'js':'jsx'
+        },
+      },
+    },
+  },
 });

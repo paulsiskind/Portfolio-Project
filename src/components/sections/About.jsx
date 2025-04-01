@@ -5,7 +5,7 @@ export const About = () => {
     return (
         <section id="About" className="min-h-screen flex flex-col items-center overflow-auto py-20" 
         style={{ 
-            backgroundImage: "url('/public/theatre1.png')",
+            backgroundImage: "url('/theatre1.png')",
             backgroundSize: "contain", // Ensures the image covers the entire section
             backgroundPosition: "center", // Centers the image
             backgroundRepeat: "no-repeat", // Prevents the image from repeating

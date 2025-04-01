@@ -1,7 +1,7 @@
 export const Home = () => {
     return (
         <section id="Home" className="relative min-h-screen flex items-center justify-center py-20 scroll-mt-20" 
-                            style={{ backgroundImage: "url('/public/house1.jpeg')",
+                            style={{ backgroundImage: "url('/house1.jpeg')",
                                 backgroundSize: "cover", // Ensures the image covers the entire section
                                 backgroundPosition: "center", // Centers the image
                                 backgroundRepeat: "no-repeat", // Prevents the image from repeating
