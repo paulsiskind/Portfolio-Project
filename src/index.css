@@ -6,6 +6,7 @@ html, body {
   font-family: sans-serif;
   background: black;
   color: aliceblue;
+  scroll-behavior: smooth;
 
 }
 

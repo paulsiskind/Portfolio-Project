@@ -32,7 +32,7 @@ export const Contact = () => {
     };
 
     return (
-        <section id="Contact" className="relative min-h-screen flex items-center justify-end py-20">
+        <section id="Contact" className="relative min-h-screen flex items-center justify-end scroll-mt-16">
             <div className="w-1/2 h-full flex items-center justify-center ml-30">
                 <div className="p-4 border-4 border-white rounded-lg shadow-2xl">
                     <img

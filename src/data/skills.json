@@ -41,13 +41,7 @@
         "src": "/lutronLogo.png",
         "alt": "Contact Us",
         "url": "https://www.lutron.com"
-      },
-      {
-        "name": "Vantage",
-        "type": "image",
-        "src": "/vantageLogo.png",
-        "alt": "Contact Us",
-        "url": "https://www.legrand.us/vantage?srsltid=AfmBOorpKjk-j4lDHSsmZ2Ib03MbuFhahZhu2Z5WuuxcQ7IDXT6_pOsC"
       }
+     
     ]
   }
