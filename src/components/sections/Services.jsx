@@ -49,6 +49,9 @@ export const Services = () => {
     <li className="mb-2">Video</li>
     <li className="mb-2">Networks</li>
     <li className="mb-2">Programming</li>
+    <li className="mb-2">Advanced Logic</li>    
+    <li className="mb-2">Design</li>
+    <li className="mb-2">Installation</li>
     <li className="mb-2">Troubleshooting</li>
 </ul>
                         

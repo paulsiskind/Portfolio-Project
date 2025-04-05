@@ -2,9 +2,27 @@ import { useEffect, useState } from "react"
 
 export const LoadingScreen = ({onComplete}) => {
     const [text, setText] = useState("");
-    const fullText = "<The World is Yours/>"
+    const phrases = [
+        "<The World is Yours/>",
+        "<Welcome to HollyHock Automations/>",
+        "<Innovate. Automate. Elevate/>",
+        "<Hello World/>",
+        "<Grateful Dead/>",
+        "<The Future is Bright/>",
+        "<This/>",
+        "<Roaring Fork Valley/>",
+        "<Aspen/>",       
+    ];
+
+    // Function to randomly pick a phrase
+    const getRandomPhrase = () => {
+        const randomIndex = Math.floor(Math.random() * phrases.length);
+        return phrases[randomIndex];
+    };
 
     useEffect(() =>{
+
+        const fullText = getRandomPhrase();
         let index =0;
         const interval = setInterval (() =>{
             setText(fullText.substring(0, index))
@@ -15,7 +33,7 @@ export const LoadingScreen = ({onComplete}) => {
 
                 setTimeout(()=>{
                     onComplete();
-                },2000)
+                },1000)
             }
 
         },100)
