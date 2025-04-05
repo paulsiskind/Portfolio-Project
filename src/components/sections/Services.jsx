@@ -53,6 +53,9 @@ export const Services = () => {
     <li className="mb-2">Design</li>
     <li className="mb-2">Installation</li>
     <li className="mb-2">Troubleshooting</li>
+    <li className="mb-2">POE Lighting</li>
+    <li className="mb-2">IP Video Matrixing</li>
+    <li className="mb-2">Video Conferencing</li>
 </ul>
                         
                     </div>
