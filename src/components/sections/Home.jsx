@@ -1,19 +1,43 @@
 export const Home = () => {
     return (
-        <section id="Home" className="relative min-h-screen flex items-center justify-center py-20 scroll-mt-16" 
-                            style={{ backgroundImage: "url('/house1.jpeg')",
-                                backgroundSize: "cover", // Ensures the image covers the entire section
-                                backgroundPosition: "center", // Centers the image
-                                backgroundRepeat: "no-repeat", // Prevents the image from repeating
-
-        }}>
-            <div className="absolute inset-0 bg-black opacity-50"></div>
-            <div className="relative z-10 text-center text-white">
-                <h1 className="text-5xl font-bold mb-4">Welcome to HollyHock Automations</h1>
-                <p className="text-lg mb-8">A Boutique AV Company Based in the Roaring Fork Valley.</p>
-                <a href="#About" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ml-4">About</a>
-                <a href="#Services" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ml-4">Services</a>
-                <a href="#Contact" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ml-4">Contact</a>
+        <section
+            id="Home"
+            className="relative min-h-screen flex items-center justify-center py-24 scroll-mt-[72px] px-4 sm:px-6"
+            style={{
+                backgroundImage: "url('/house1.jpeg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+            }}
+        >
+            <div className="absolute inset-0 bg-black/60"></div>
+            <div className="relative z-10 max-w-3xl text-center text-white space-y-6">
+                <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
+                    Welcome to HollyHock Automations
+                </h1>
+                <p className="text-base sm:text-lg text-gray-200">
+                    A boutique AV company based in the Roaring Fork Valley, crafting smarter spaces for living and working.
+                </p>
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+                    <a
+                        href="#About"
+                        className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 shadow-lg shadow-blue-500/30"
+                    >
+                        About
+                    </a>
+                    <a
+                        href="#Services"
+                        className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 shadow-lg shadow-blue-500/30"
+                    >
+                        Services
+                    </a>
+                    <a
+                        href="#Contact"
+                        className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 shadow-lg shadow-blue-500/30"
+                    >
+                        Contact
+                    </a>
+                </div>
             </div>
         </section>
     );
