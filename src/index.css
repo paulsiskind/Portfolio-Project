@@ -1,11 +1,21 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+  --hh-navy: #10212b;
+  --hh-red: #c73b32;
+  --hh-cream: #f2d9a1;
+  --hh-gold: #f6e3b6;
+  --hh-slate: #1b2f3b;
+  --hh-offwhite: #f7f3ea;
+}
 
 html, body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: black;
-  color: aliceblue;
+  font-family: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--hh-navy);
+  color: var(--hh-offwhite);
   scroll-behavior: smooth;
 
 }
@@ -38,3 +48,53 @@ html, body {
   }
   
 } 
+
+@layer components {
+  .hh-section {
+    @apply max-w-6xl mx-auto px-6 md:px-12;
+  }
+
+  .hh-tag {
+    background: rgba(247, 243, 234, 0.08);
+    border: 1px solid rgba(242, 217, 161, 0.25);
+    border-radius: 9999px;
+    color: var(--hh-cream);
+    font-size: 0.75rem;
+    padding: 0.4rem 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .hh-btn-primary {
+    background: linear-gradient(135deg, var(--hh-red), #922a24);
+    color: var(--hh-offwhite);
+    padding: 0.85rem 1.75rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    box-shadow: 0 18px 35px rgba(199, 59, 50, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .hh-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 22px 45px rgba(199, 59, 50, 0.35);
+  }
+
+  .hh-btn-ghost {
+    background: rgba(247, 243, 234, 0.08);
+    border: 1px solid rgba(242, 217, 161, 0.25);
+    color: var(--hh-cream);
+    padding: 0.85rem 1.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .hh-btn-ghost:hover {
+    background: rgba(247, 243, 234, 0.16);
+    transform: translateY(-2px);
+  }
+}

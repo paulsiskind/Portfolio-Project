@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f2d9a1" rx="36" />
+  <rect x="40" y="40" width="432" height="432" fill="#10212b" rx="28" />
+  <g fill="#c73b32">
+    <path d="M256 98c-63 0-114 51-114 114s51 114 114 114 114-51 114-114S319 98 256 98zm0 192c-43 0-78-35-78-78s35-78 78-78 78 35 78 78-35 78-78 78z"/>
+    <circle cx="256" cy="152" r="92"/>
+    <circle cx="256" cy="360" r="92"/>
+    <circle cx="152" cy="256" r="92"/>
+    <circle cx="360" cy="256" r="92"/>
+  </g>
+  <circle cx="256" cy="256" r="62" fill="#f6e3b6"/>
+  <text x="256" y="472" text-anchor="middle" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="64" font-weight="700" fill="#f6e3b6" letter-spacing="8">
+    HOLLYHOCK
+  </text>
+</svg>
