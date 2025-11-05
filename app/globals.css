@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0b141a;
+  --bg-secondary: #111b22;
+  --bg-elevated: rgba(17, 28, 36, 0.78);
+  --foreground: #f3f1ec;
+  --foreground-muted: rgba(243, 241, 236, 0.68);
+  --accent: #b93a2c;
+  --accent-soft: #c65247;
+  --ring-color: rgba(209, 164, 86, 0.45);
+}
+
+.light {
+  --bg-primary: #f3f1ec;
+  --bg-secondary: #ffffff;
+  --bg-elevated: rgba(255, 255, 255, 0.86);
+  --foreground: #0b141a;
+  --foreground-muted: rgba(11, 20, 26, 0.66);
+  --accent: #b93a2c;
+  --accent-soft: #d25a4f;
+  --ring-color: rgba(185, 58, 44, 0.4);
+}
+
+* {
+  @apply border-transparent;
+}
+
+body {
+  @apply bg-[var(--bg-primary)] text-[var(--foreground)] antialiased;
+}
+
+.section-grid {
+  @apply grid gap-y-16 lg:gap-y-24;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-display font-medium tracking-tight;
+}
+
+.section-eyebrow {
+  @apply uppercase text-xs tracking-[0.35em] text-[var(--foreground-muted)];
+}
+
+.glass-surface {
+  @apply rounded-3xl border border-white/10 backdrop-blur-xl shadow-[0_24px_60px_rgba(8,14,20,0.28)];
+  background-color: color-mix(in srgb, var(--bg-elevated) 60%, transparent);
+}
+
+.grid-balanced {
+  @apply grid gap-8 md:grid-cols-2 lg:grid-cols-4;
+}
